@@ -1,0 +1,9 @@
+
+Answers to questions are placed in file `Answers.docx`.
+Codes related to Section 5 and 6 are placed in `fruitExample` directory.
+
+In order to run tests execute `npm run test`.
+To run fruitExample project run: `node fruitExample`.
+
+Note that due to lack of time I didn't add input validations and Eslint.
+
