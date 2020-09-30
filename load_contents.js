@@ -38,7 +38,7 @@ async function fileRead(path) {
 async function getFileContents(path) {
   const existFile = await fileExists(path);
   if (!existFile) {
-    throw new Error('File does not exist');
+    throw new AppError('File does not exist');
   }
   console.log('exists');
   const stats = await fileStat(path);
